@@ -1,0 +1,52 @@
+--- user.js
++++ okayfox.js
+@@ -8,10 +8,10 @@
+  */
+ 
+ /****************************************************************************
+- * Betterfox                                                                *
++ * Okayfox                                                                  *
+  * "Ad meliora"                                                             *
+  * version: 138                                                             *
+- * url: https://github.com/yokoffing/Betterfox                              *
++ * url: https://github.com/abnrk/okayfox                                    *
+ ****************************************************************************/
+ 
+ /****************************************************************************
+@@ -63,7 +63,7 @@
+  * SECTION: SECUREFOX                                                       *
+ ****************************************************************************/
+ /** TRACKING PROTECTION ***/
+-user_pref("browser.contentblocking.category", "strict");
++//user_pref("browser.contentblocking.category", "strict");
+ user_pref("browser.download.start_downloads_in_tmp_dir", true);
+ user_pref("browser.helperApps.deleteTempFileOnExit", true);
+ user_pref("browser.uitour.enabled", false);
+@@ -91,14 +91,14 @@
+ user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
+ user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
+ user_pref("browser.urlbar.update2.engineAliasRefresh", true);
+-user_pref("browser.search.suggest.enabled", false);
++//user_pref("browser.search.suggest.enabled", false);
+ user_pref("browser.urlbar.quicksuggest.enabled", false);
+ user_pref("browser.urlbar.groupLabels.enabled", false);
+ user_pref("browser.formfill.enable", false);
+ user_pref("network.IDN_show_punycode", true);
+ 
+ /** PASSWORDS ***/
+-user_pref("signon.formlessCapture.enabled", false);
++//user_pref("signon.formlessCapture.enabled", false);
+ user_pref("signon.privateBrowsingCapture.enabled", false);
+ user_pref("network.auth.subresource-http-auth-allow", 1);
+ user_pref("editor.truncate_user_pastes", false);
+@@ -120,8 +120,8 @@
+ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+ 
+ /** MOZILLA ***/
+-user_pref("permissions.default.desktop-notification", 2);
+-user_pref("permissions.default.geo", 2);
++//user_pref("permissions.default.desktop-notification", 2);
++//user_pref("permissions.default.geo", 2);
+ user_pref("geo.provider.network.url", "https://beacondb.net/v1/geolocate");
+ user_pref("browser.search.update", false);
+ user_pref("permissions.manager.defaultsUrl", "");
