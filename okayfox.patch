@@ -7,13 +7,13 @@
 - * Betterfox                                                                *
 + * Okayfox                                                                  *
   * "Ad meliora"                                                             *
-  * version: 138                                                             *
+  * version: 140                                                             *
 - * url: https://github.com/yokoffing/Betterfox                              *
-+ * url: https://github.com/abnrk/okayfox                                    *
++ * url: https://github.com/abnrk/okayfox/                                   *
  ****************************************************************************/
  
  /****************************************************************************
-@@ -63,7 +63,7 @@
+@@ -62,7 +62,7 @@
   * SECTION: SECUREFOX                                                       *
  ****************************************************************************/
  /** TRACKING PROTECTION ***/
@@ -22,10 +22,10 @@
  user_pref("browser.download.start_downloads_in_tmp_dir", true);
  user_pref("browser.helperApps.deleteTempFileOnExit", true);
  user_pref("browser.uitour.enabled", false);
-@@ -91,14 +91,14 @@
+@@ -89,14 +89,14 @@
+ user_pref("browser.urlbar.trimHttps", true);
  user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
  user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
- user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 -user_pref("browser.search.suggest.enabled", false);
 +//user_pref("browser.search.suggest.enabled", false);
  user_pref("browser.urlbar.quicksuggest.enabled", false);
@@ -39,7 +39,7 @@
  user_pref("signon.privateBrowsingCapture.enabled", false);
  user_pref("network.auth.subresource-http-auth-allow", 1);
  user_pref("editor.truncate_user_pastes", false);
-@@ -120,8 +120,8 @@
+@@ -118,8 +118,8 @@
  user_pref("browser.safebrowsing.downloads.remote.enabled", false);
  
  /** MOZILLA ***/
