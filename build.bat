@@ -9,5 +9,7 @@ set /a version_copy=%version_copy:~11,-1%
 if %version_copy% neq %version% (
   @echo okayfox.js is outdated! (%version_copy% vs %version%)
 )
-busybox diff -u user.js okayfox.js > okayfox.patch
-busybox patch user.js okayfox.patch
+if %version_copy% == %version% (
+  busybox diff -u user.js okayfox.js > okayfox.patch
+  busybox patch user.js okayfox.patch
+)
